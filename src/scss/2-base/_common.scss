@@ -36,6 +36,10 @@ h2.title{
         font-size: $sub-title-font-size;
         margin: 48px 0;
     }
+
+    &__wrapper{
+        max-width: 100%;
+    }
 }
 
 .section-padding{

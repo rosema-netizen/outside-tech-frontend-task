@@ -1,12 +1,20 @@
 .card{
         border-radius: 0;
         background-color: $card-bg;
+        max-height: 404px;
+        height: 404px;
+        max-width: 360px;
+        transition: ease-in-out 0.6s;
+        &:hover{
+            background-color: $card-bg-hover;
+            color: $card-text-hover;
+        }
 
     &-title{
         font-family: "SunsetGothicBold";
-        font-size: 20px;
-        line-height: 19px;
+        font-size: $card-title-font-size;
+        line-height: 25px;
         text-transform: uppercase;
+       
     }
-    
 }

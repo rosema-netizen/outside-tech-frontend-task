@@ -11603,6 +11603,9 @@ h2.title {
   font-size: 47px;
   margin: 48px 0;
 }
+.blockcard__wrapper {
+  max-width: 100%;
+}
 
 .section-padding {
   padding: 120px 0;
@@ -11725,11 +11728,19 @@ h2.title {
 .card {
   border-radius: 0;
   background-color: #EFE1D4;
+  max-height: 404px;
+  height: 404px;
+  max-width: 360px;
+  transition: ease-in-out 0.6s;
+}
+.card:hover {
+  background-color: #000;
+  color: #EFE1D4;
 }
 .card-title {
   font-family: "SunsetGothicBold";
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 28px;
+  line-height: 25px;
   text-transform: uppercase;
 }
 
