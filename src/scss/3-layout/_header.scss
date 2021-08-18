@@ -1,0 +1,12 @@
+.langselector{
+    background: $lang-selector-bg;
+    &__wrapper{
+        display: flex;
+        width: fit-content;
+        margin-left: auto;
+    }
+    &__label{
+        margin: 0;
+        width: auto;
+    }
+}
