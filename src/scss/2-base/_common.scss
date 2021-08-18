@@ -1,55 +1,50 @@
-body{
-    font-family: "GalaxieCopernicus";
-    font-size: $content-font-size;
-    color: $font-content-color;
+body {
+  font-family: "GalaxieCopernicus";
+  font-size: $content-font-size;
+  color: $font-content-color;
 }
-p{
-    margin: 0;
-}
-
-a{
-    color: $font-content-color;
-    &:hover{
-        text-decoration: none;
-        
-    }
+p {
+  margin: 0;
 }
 
-
-.title{
-    font-family:"SunsetGothicBold" ;
-    text-transform: uppercase;
+a {
+  color: $font-content-color;
+  &:hover {
+    text-decoration: none;
+  }
 }
 
-
-h1.title{
-    font-size: $hero-font-size;
-
+.title {
+  font-family: "SunsetGothicBold";
+  text-transform: uppercase;
 }
 
-h2.title{
-    font-size: $block-title-font-size;
+h1.title {
+  font-size: $hero-font-size;
 }
 
-.blockcard{
-    &__title{
-        font-size: $sub-title-font-size;
-        margin: 48px 0;
-    }
-
-    &__wrapper{
-        max-width: 100%;
-    }
+h2.title {
+  font-size: $block-title-font-size;
 }
 
-.section-padding{
-    padding: 120px 0;
-}
-.section-bgimg{
-    width: 80%;
-    &--right{
-        margin-left: auto;
-    }
+.blockcard {
+  &__title {
+    font-size: $sub-title-font-size;
+    margin: 48px 0;
+  }
 
+  &__wrapper {
+    max-width: 100%;
+    padding-left: 85px;
+  }
 }
-    
+
+.section-padding {
+  padding: 120px 0;
+}
+.section-bgimg {
+  width: 80%;
+  &--right {
+    margin-left: auto;
+  }
+}
