@@ -11598,6 +11598,17 @@ h2.title {
   font-size: 52px;
 }
 
+.section-padding {
+  padding: 120px 0;
+}
+
+.section-bgimg {
+  width: 80%;
+}
+.section-bgimg--right {
+  margin-left: auto;
+}
+
 .langselector {
   background: #FFD7B4;
 }
@@ -11653,6 +11664,7 @@ h2.title {
 .seperator {
   background-color: #EFE1D4;
   height: 8px;
+  margin-top: 120px;
 }
 
 .link__button {
@@ -11693,6 +11705,16 @@ h2.title {
 
 .connect {
   background: #C3C3B3;
+}
+.connect__wrapper {
+  margin-top: -60px;
+}
+
+.text-content {
+  padding: 40px 0;
+}
+.text-content__desc {
+  padding: 30px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
