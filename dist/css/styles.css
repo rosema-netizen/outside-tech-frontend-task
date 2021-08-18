@@ -11590,6 +11590,11 @@ a:hover {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 .title {
   font-family: "SunsetGothicBold";
   text-transform: uppercase;
@@ -11623,6 +11628,22 @@ h2.title {
 }
 .section-bgimg--right {
   margin-left: auto;
+}
+
+.dots__item {
+  display: inline-block;
+  opacity: 0.2;
+  padding: 0 2px;
+}
+.dots__item--active {
+  opacity: 1;
+}
+
+.line {
+  width: 1.2px;
+  height: 25px;
+  opacity: 0.2;
+  background: #474952;
 }
 
 .langselector {
@@ -11717,6 +11738,15 @@ h2.title {
 }
 .hero__desc {
   padding: 30px 0;
+}
+.hero__item {
+  display: inline-block;
+  color: #474952;
+  opacity: 0.2;
+  padding: 0 10px;
+}
+.hero__item--active {
+  opacity: 1;
 }
 
 .content-section {
