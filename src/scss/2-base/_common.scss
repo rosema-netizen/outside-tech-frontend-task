@@ -1,6 +1,7 @@
 body{
     font-family: "GalaxieCopernicus";
     font-size: $content-font-size;
+    color: $font-content-color;
 }
 p{
     margin: 0;
@@ -14,8 +15,37 @@ a{
     }
 }
 
-h1.title{
-    font-size: 64px;
+
+.title{
     font-family:"SunsetGothicBold" ;
+    text-transform: uppercase;
+}
+
+
+h1.title{
+    font-size: $hero-font-size;
+
+}
+
+h2.title{
+    font-size: $block-title-font-size;
+}
+
+.blockcard{
+    &__title{
+        font-size: $sub-title-font-size;
+        margin: 48px 0;
+    }
+}
+
+.section-padding{
+    padding: 120px 0;
+}
+.section-bgimg{
+    width: 80%;
+    &--right{
+        margin-left: auto;
+    }
+
 }
     

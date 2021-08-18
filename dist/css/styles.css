@@ -11572,6 +11572,7 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: "GalaxieCopernicus";
   font-size: 16px;
+  color: #000;
 }
 
 p {
@@ -11596,6 +11597,11 @@ h1.title {
 
 h2.title {
   font-size: 52px;
+}
+
+.blockcard__title {
+  font-size: 47px;
+  margin: 48px 0;
 }
 
 .section-padding {
@@ -11694,7 +11700,6 @@ h2.title {
 .hero {
   background: #EFE1D4;
   padding: 60px 0;
-  color: #000;
 }
 .hero__textcontent {
   padding: 40px 0;
@@ -11715,6 +11720,17 @@ h2.title {
 }
 .text-content__desc {
   padding: 30px 0;
+}
+
+.card {
+  border-radius: 0;
+  background-color: #EFE1D4;
+}
+.card-title {
+  font-family: "SunsetGothicBold";
+  font-size: 20px;
+  line-height: 19px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

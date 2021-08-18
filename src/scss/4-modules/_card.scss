@@ -1,0 +1,12 @@
+.card{
+        border-radius: 0;
+        background-color: $card-bg;
+
+    &-title{
+        font-family: "SunsetGothicBold";
+        font-size: 20px;
+        line-height: 19px;
+        text-transform: uppercase;
+    }
+    
+}
