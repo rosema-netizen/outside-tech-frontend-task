@@ -8523,10 +8523,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 @font-face {
   font-family: "SunsetGothicBold";
+  font-weight: normal;
+  font-style: normal;
   src: url(../fonts/sunset-gothic-bold-pro.eot);
+  src: url(../fonts/) format("embedded-opentype"), url(../fonts/sunset-gothic-bold-pro.woff) format("woff"), url(../fonts/sunset-gothic-bold-pro.woff2) format("woff2"), url(../fonts/sunset-gothic-bold-pro.ttf) format("truetype");
 }
 body {
   font-family: "GalaxieCopernicus";
+  font-size: 16px;
 }
 
 .langselector {
@@ -8536,19 +8540,49 @@ body {
   display: flex;
   width: fit-content;
   margin-left: auto;
+  padding: 12px 0;
 }
 .langselector__label {
   margin: 0;
   width: auto;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 24px;
+}
+.langselector__btn {
+  font-family: "SunsetGothicBold";
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0 6px;
+  color: #474952;
+  opacity: 0.2;
+}
+.langselector__btn--active {
+  color: #000;
+  opacity: 1;
 }
 
+.navbar {
+  background-color: #EFE1D4;
+}
 .navbar__list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.navbar__list__item {
+.navbar__item {
   display: inline-block;
+  padding: 0 20px;
+  line-height: 18px;
+  vertical-align: top;
+}
+.navbar__item--register {
+  font-family: "SunsetGothicBold";
+  float: right;
+  font-size: 14px;
+}
+.navbar__logo {
+  padding-right: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

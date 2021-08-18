@@ -1,11 +1,23 @@
-.navbar{
-    &__list{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        &__item{
-            display: inline-block;
-        }
+.navbar {
+    background-color: $bg-1;
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 18px;
+    vertical-align: top;
+    &--register {
+      font-family: "SunsetGothicBold";
+      float: right;
+      font-size: 14px;
     }
-    
+  }
+
+  &__logo {
+    padding-right: 30px;
+  }
 }
