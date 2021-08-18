@@ -21,21 +21,24 @@ a {
 
 h1.title {
   font-size: $hero-font-size;
+  line-height: 55px;
 }
 
 h2.title {
   font-size: $block-title-font-size;
+  line-height: 48px;
 }
 
 .blockcard {
   &__title {
     font-size: $sub-title-font-size;
     margin: 48px 0;
+    text-transform: capitalize;
   }
 
   &__wrapper {
     max-width: 100%;
-    padding-left: 85px;
+    // padding-left: 85px;
   }
 }
 

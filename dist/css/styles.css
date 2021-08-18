@@ -11597,19 +11597,21 @@ a:hover {
 
 h1.title {
   font-size: 64px;
+  line-height: 55px;
 }
 
 h2.title {
   font-size: 52px;
+  line-height: 48px;
 }
 
 .blockcard__title {
   font-size: 47px;
   margin: 48px 0;
+  text-transform: capitalize;
 }
 .blockcard__wrapper {
   max-width: 100%;
-  padding-left: 85px;
 }
 
 .section-padding {
@@ -11687,6 +11689,7 @@ h2.title {
   text-align: center;
   padding: 17px 32px 15px;
   display: inline-block;
+  text-transform: capitalize;
 }
 .link__button:hover {
   background: #000;
@@ -11716,11 +11719,14 @@ h2.title {
   padding: 30px 0;
 }
 
-.connect {
+.content-section {
   background: #C3C3B3;
 }
-.connect__wrapper {
+.content-section__wrapper {
   margin-top: -60px;
+}
+.content-section--pnkbg {
+  background: #E1CECC;
 }
 
 .text-content {
@@ -11738,16 +11744,63 @@ h2.title {
   max-width: 360px;
   margin: 0 30px;
   transition: ease-in-out 0.6s;
+  border: none;
 }
 .card:hover {
   background-color: #000;
   color: #EFE1D4;
+  cursor: pointer;
 }
 .card-title {
   font-family: "SunsetGothicBold";
   font-size: 28px;
   line-height: 25px;
   text-transform: uppercase;
+}
+.card-img--border {
+  border: 7px solid #000;
+  transition: ease-in-out .3s;
+}
+.card-img--border:hover {
+  border-color: #EFE1D4;
+}
+.card--bgnone {
+  background-color: transparent;
+  margin: 0;
+}
+.card--bgnone:hover {
+  background-color: transparent;
+  color: #000;
+}
+.card--bgnone .card-body {
+  padding: 10px 0;
+}
+.card-tag {
+  background-color: #EFE1D4;
+  font-size: 14px;
+  padding: 2px 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+.card-update {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.card--imgnone {
+  border-top: 8px solid #000;
+}
+.card--imgnone:hover {
+  border-top: 8px solid #EFE1D4;
+}
+
+h4.card-text {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+h5.card-text {
+  font-size: 22px;
+  margin: 15px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

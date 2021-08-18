@@ -10,11 +10,15 @@
     }
 }
 
-.connect{
+.content-section{
     background: $bg-2;
 
     &__wrapper{
         margin-top: -60px;
+    }
+
+    &--pnkbg{
+        background: $bg-3;
     }
 }
 

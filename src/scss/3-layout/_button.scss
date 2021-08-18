@@ -5,6 +5,7 @@
     text-align: center;
     padding: 17px 32px 15px;
     display: inline-block;
+    text-transform: capitalize;
     &:hover {
       background: $button-bg-hover;
       color: $link-color-hover;
