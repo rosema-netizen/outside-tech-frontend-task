@@ -4,9 +4,26 @@
         display: flex;
         width: fit-content;
         margin-left: auto;
+        padding: 12px 0;
     }
     &__label{
         margin: 0;
         width: auto;
+        padding: 0 6px;
+        font-size: 12px;
+        line-height: 24px;
     }
+    &__btn{
+        font-family:"SunsetGothicBold" ;
+        font-size: 16px;
+        text-transform: uppercase;
+        padding: 0 6px;
+        color: $font-content-lightcolor;
+        opacity: 0.2; 
+
+        &--active{
+            color:$font-content-color;
+            opacity: 1;
+    }
+}
 }
