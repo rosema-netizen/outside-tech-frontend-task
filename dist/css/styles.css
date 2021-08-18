@@ -8533,6 +8533,22 @@ body {
   font-size: 16px;
 }
 
+p {
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  text-decoration: none;
+}
+
+h1.title {
+  font-size: 64px;
+  font-family: "SunsetGothicBold";
+}
+
 .langselector {
   background: #FFD7B4;
 }
@@ -8583,6 +8599,18 @@ body {
 }
 .navbar__logo {
   padding-right: 30px;
+}
+
+.hero {
+  background: #EFE1D4;
+  padding: 60px 0;
+  color: #000;
+}
+.hero__textcontent {
+  padding: 40px 0;
+}
+.hero__desc {
+  padding: 30px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
