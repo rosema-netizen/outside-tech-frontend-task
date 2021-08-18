@@ -11759,10 +11759,18 @@ h2.title {
 }
 .card-img--border {
   border: 7px solid #000;
-  transition: ease-in-out .3s;
+  transition: ease-in-out 0.3s;
 }
 .card-img--border:hover {
   border-color: #EFE1D4;
+}
+.card-img__wrapper {
+  position: relative;
+}
+.card-img__play {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
 .card--bgnone {
   background-color: transparent;

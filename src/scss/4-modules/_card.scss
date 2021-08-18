@@ -21,13 +21,21 @@
   &-img {
     &--border {
       border: 7px solid $black;
-      transition: ease-in-out .3s;
+      transition: ease-in-out 0.3s;
       &:hover {
         border-color: $peach;
       }
     }
+
+    &__wrapper {
+      position: relative;
+    }
+    &__play {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+    }
   }
-  
 
   &--bgnone {
     background-color: transparent;
@@ -36,38 +44,35 @@
       background-color: transparent;
       color: $black;
     }
-    .card-body{
-        padding: 10px 0;
+    .card-body {
+      padding: 10px 0;
     }
   }
-  &-tag{
-      background-color: $card-bg;
-      font-size: 14px;
-      padding: 2px 5px;
-      margin-right: 5px;
-      text-transform: uppercase;
+  &-tag {
+    background-color: $card-bg;
+    font-size: 14px;
+    padding: 2px 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
   }
-  &-update{
+  &-update {
     text-transform: uppercase;
     font-size: 14px;
-
   }
-  &--imgnone{
-      border-top: 8px solid $black;
-      &:hover{
-        border-top: 8px solid $peach;
-      }
+  &--imgnone {
+    border-top: 8px solid $black;
+    &:hover {
+      border-top: 8px solid $peach;
+    }
   }
-
 }
 
-h4.card-text{
-    font-size: 32px;
-    line-height: 44px;
-   
+h4.card-text {
+  font-size: 32px;
+  line-height: 44px;
 }
 
-h5.card-text{
-    font-size: 22px;
-    margin: 15px 0;
+h5.card-text {
+  font-size: 22px;
+  margin: 15px 0;
 }
