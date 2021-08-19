@@ -11663,12 +11663,18 @@ h2.title {
     display: none;
   }
 
+  body {
+    font-size: 27px;
+  }
+
   h1.title {
     line-height: 55px;
+    font-size: 64px;
   }
 
   h2.title {
     line-height: 48px;
+    font-size: 52px;
   }
 
   .section-padding {
@@ -11677,6 +11683,7 @@ h2.title {
 
   .blockcard__title {
     margin: 48px 0;
+    font-size: 47px;
   }
 }
 .langselector {
@@ -11719,7 +11726,7 @@ h2.title {
 .navbar__item {
   display: inline-block;
   padding: 0 20px;
-  line-height: 18px;
+  line-height: 39px;
   vertical-align: top;
 }
 .navbar__item--register {
@@ -11839,8 +11846,8 @@ h2.title {
 }
 .card-img__play {
   position: absolute;
-  bottom: 30px;
-  left: 30px;
+  bottom: 30%;
+  left: 40%;
 }
 .card--bgnone {
   background-color: transparent;
@@ -11905,10 +11912,33 @@ h5.card-text {
   .card-update {
     font-size: 10px;
   }
+  .card--bgnone {
+    background-color: transparent;
+    margin: 0;
+    height: auto;
+  }
+  .card--bgnone:hover {
+    background-color: transparent;
+    color: #000;
+  }
+  .card--bgnone .card-body {
+    padding: 10px 0;
+  }
+  .card--imgnone {
+    border-top: 8px solid #000;
+  }
+  .card--imgnone:hover {
+    border-top: 8px solid #efe1d4;
+  }
+  .card-img__play {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
 
   h4.card-text {
     font-size: 32px;
-    line-height: 25px;
+    line-height: 44px;
   }
 
   h5.card-text {
