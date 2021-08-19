@@ -32,11 +32,7 @@ $card-text-hover: $peach;
 
 // DERIVED VARIABLES
 
-@media screen and (min-width: 1074px) {
-  $hero-font-size: 64px;
-  $block-title-font-size: 52px;
-  $card-title-font-size: 28px;
-  $sub-title-font-size: 47px;
-  $content-font-size: 16px;
-  $card-noimg-tile:32px;
-}
+
+$stdrd-transition: ease-in-out, 0.2s;
+
+// TRANSITION VARIABLES

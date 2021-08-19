@@ -11598,16 +11598,15 @@ ul {
 .title {
   font-family: "SunsetGothicBold";
   text-transform: uppercase;
+  line-height: 95%;
 }
 
 h1.title {
   font-size: 36px;
-  line-height: 32px;
 }
 
 h2.title {
   font-size: 25px;
-  line-height: 25px;
 }
 
 .blockcard__title {
@@ -11673,16 +11672,14 @@ h2.title {
   }
 
   body {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   h1.title {
-    line-height: 55px;
     font-size: 64px;
   }
 
   h2.title {
-    line-height: 48px;
     font-size: 52px;
   }
 
@@ -11745,14 +11742,14 @@ h2.title {
 .navbar__item {
   display: inline-block;
   padding: 0 20px;
-  line-height: 39px;
+  line-height: 95%;
   vertical-align: top;
 }
 .navbar__item--register {
   font-family: "SunsetGothicBold";
   float: right;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 95%;
 }
 .navbar__logo {
   padding-right: 30px;
@@ -11790,7 +11787,7 @@ h2.title {
 .link__button:hover {
   background: #000;
   color: #efe1d4;
-  transition: ease-in-out 0.6s;
+  transition: ease-in-out, 0.2s;
 }
 .link__button:hover .link__arrow {
   background: url(../images/XL/button/arrow-hover.svg) no-repeat;
@@ -11828,7 +11825,7 @@ h2.title {
   background: #c3c3b3;
 }
 .content-section__wrapper {
-  margin-top: -60px;
+  margin-top: -5px;
 }
 .content-section--pnkbg {
   background: #e1cecc;
@@ -11837,6 +11834,10 @@ h2.title {
 @media screen and (min-width: 1074px) {
   .hero {
     padding: 120px 0;
+  }
+
+  .content-section__wrapper {
+    margin-top: -60px;
   }
 }
 .text-content {
@@ -11860,7 +11861,7 @@ h2.title {
   height: 230px;
   max-width: 360px;
   margin: 0 10px;
-  transition: ease-in-out 0.6s;
+  transition: ease-in-out, 0.2s;
   border: none;
 }
 .card:hover {
@@ -11874,12 +11875,12 @@ h2.title {
 .card-title {
   font-family: "SunsetGothicBold";
   font-size: 14px;
-  line-height: 16px;
+  line-height: 98%;
   text-transform: uppercase;
 }
 .card-img--border {
   border: 7px solid #000;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out, 0.2s;
 }
 .card-img--border:hover {
   border-color: #efe1d4;
@@ -11924,7 +11925,7 @@ h2.title {
 
 h4.card-text {
   font-size: 24px;
-  line-height: 28px;
+  line-height: 120%;
 }
 
 h5.card-text {
@@ -11939,11 +11940,10 @@ h5.card-text {
     height: 404px;
     max-width: 360px;
     margin: 0 30px;
-    transition: ease-in-out 0.6s;
+    transition: ease-in-out, 0.2s;
     border: none;
   }
   .card-title {
-    line-height: 25px;
     font-size: 28px;
   }
   .card-body {
@@ -11981,7 +11981,6 @@ h5.card-text {
 
   h4.card-text {
     font-size: 32px;
-    line-height: 44px;
   }
 
   h5.card-text {

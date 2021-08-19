@@ -9,7 +9,7 @@
     &:hover {
       background: $button-bg-hover;
       color: $link-color-hover;
-        transition: ease-in-out 0.6s;
+        transition: $stdrd-transition;
       .link__arrow{
             background: url(../images/XL/button/arrow-hover.svg) no-repeat;
       }

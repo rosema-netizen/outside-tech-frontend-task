@@ -25,7 +25,7 @@
     background: $bg-2;
 
     &__wrapper{
-        margin-top: -60px;
+        margin-top: -5px;
     }
 
     &--pnkbg{
@@ -38,5 +38,12 @@
 
     .hero{
         padding: 120px 0;
+    }
+
+    .content-section{
+    
+        &__wrapper{
+            margin-top: -60px;
+        }
     }
 }

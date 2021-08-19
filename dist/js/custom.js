@@ -59,11 +59,11 @@ $(document).ready(function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
       document.getElementById("navbar").style.top = "0";
       document.getElementById("navbar").style.background = "#ffd7b4";
-      document.getElementById("navbar").style.transition = "ease 0.3s";
+      document.getElementById("navbar").style.transition = "ease-in-out 0.2s";
       document.getElementById("navbar").style.padding = "40px 0";
 
     } else {
-      document.getElementById("navbar").style.top = "45px";
+      document.getElementById("navbar").style.top = "60px";
       document.getElementById("navbar").style.background = "transparent";
       document.getElementById("navbar").style.padding = "20px 0";
 

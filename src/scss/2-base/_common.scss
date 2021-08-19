@@ -21,16 +21,16 @@ ul {
 .title {
   font-family: "SunsetGothicBold";
   text-transform: uppercase;
+  line-height: 95%;
 }
 
 h1.title {
   font-size: $hero-font-size;
-  line-height: 32px;
+
 }
 
 h2.title {
   font-size: $block-title-font-size;
-  line-height: 25px;
 }
 
 .blockcard {
@@ -100,16 +100,14 @@ h2.title {
   }
 
   body {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   h1.title {
-    line-height: 55px;
     font-size: 64px;
   }
 
   h2.title {
-    line-height: 48px;
     font-size: 52px;
   }
 
