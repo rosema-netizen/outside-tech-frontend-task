@@ -11601,18 +11601,18 @@ ul {
 }
 
 h1.title {
-  font-size: 64px;
-  line-height: 55px;
+  font-size: 36px;
+  line-height: 32px;
 }
 
 h2.title {
-  font-size: 52px;
-  line-height: 48px;
+  font-size: 25px;
+  line-height: 25px;
 }
 
 .blockcard__title {
-  font-size: 47px;
-  margin: 48px 0;
+  font-size: 24px;
+  margin: 24px 0;
   text-transform: capitalize;
 }
 .blockcard__wrapper {
@@ -11620,11 +11620,11 @@ h2.title {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .section-bgimg {
-  width: 80%;
+  width: 85%;
 }
 .section-bgimg--right {
   margin-left: auto;
@@ -11646,8 +11646,41 @@ h2.title {
   background: #474952;
 }
 
+.sp-displaynone {
+  display: none;
+}
+
+.pc-displaynone {
+  display: block;
+}
+
+@media screen and (min-width: 1074px) {
+  .sp-displaynone {
+    display: block;
+  }
+
+  .pc-displaynone {
+    display: none;
+  }
+
+  h1.title {
+    line-height: 55px;
+  }
+
+  h2.title {
+    line-height: 48px;
+  }
+
+  .section-padding {
+    padding: 120px 0;
+  }
+
+  .blockcard__title {
+    margin: 48px 0;
+  }
+}
 .langselector {
-  background: #FFD7B4;
+  background: #ffd7b4;
 }
 .langselector__wrapper {
   display: flex;
@@ -11676,7 +11709,7 @@ h2.title {
 }
 
 .navbar {
-  background-color: #EFE1D4;
+  background-color: #efe1d4;
 }
 .navbar__list {
   margin: 0;
@@ -11699,13 +11732,18 @@ h2.title {
 }
 
 .seperator {
-  background-color: #EFE1D4;
+  background-color: #efe1d4;
   height: 8px;
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
+@media screen and (min-width: 1074px) {
+  .seperator {
+    margin-top: 120px;
+  }
+}
 .link__button {
-  background: #EFE1D4;
+  background: #efe1d4;
   color: #000;
   text-align: center;
   padding: 17px 32px 15px;
@@ -11714,7 +11752,7 @@ h2.title {
 }
 .link__button:hover {
   background: #000;
-  color: #EFE1D4;
+  color: #efe1d4;
   transition: ease-in-out 0.6s;
 }
 .link__button:hover .link__arrow {
@@ -11730,7 +11768,7 @@ h2.title {
 }
 
 .hero {
-  background: #EFE1D4;
+  background: #efe1d4;
   padding: 60px 0;
 }
 .hero__textcontent {
@@ -11750,13 +11788,13 @@ h2.title {
 }
 
 .content-section {
-  background: #C3C3B3;
+  background: #c3c3b3;
 }
 .content-section__wrapper {
   margin-top: -60px;
 }
 .content-section--pnkbg {
-  background: #E1CECC;
+  background: #e1cecc;
 }
 
 .text-content {
@@ -11768,23 +11806,25 @@ h2.title {
 
 .card {
   border-radius: 0;
-  background-color: #EFE1D4;
-  max-height: 404px;
-  height: 404px;
+  background-color: #efe1d4;
+  height: 230px;
   max-width: 360px;
-  margin: 0 30px;
+  margin: 0 10px;
   transition: ease-in-out 0.6s;
   border: none;
 }
 .card:hover {
   background-color: #000;
-  color: #EFE1D4;
+  color: #efe1d4;
   cursor: pointer;
+}
+.card-body {
+  padding: 0.75rem;
 }
 .card-title {
   font-family: "SunsetGothicBold";
-  font-size: 28px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 16px;
   text-transform: uppercase;
 }
 .card-img--border {
@@ -11792,7 +11832,7 @@ h2.title {
   transition: ease-in-out 0.3s;
 }
 .card-img--border:hover {
-  border-color: #EFE1D4;
+  border-color: #efe1d4;
 }
 .card-img__wrapper {
   position: relative;
@@ -11805,6 +11845,7 @@ h2.title {
 .card--bgnone {
   background-color: transparent;
   margin: 0;
+  height: auto;
 }
 .card--bgnone:hover {
   background-color: transparent;
@@ -11814,7 +11855,7 @@ h2.title {
   padding: 10px 0;
 }
 .card-tag {
-  background-color: #EFE1D4;
+  background-color: #efe1d4;
   font-size: 14px;
   padding: 2px 5px;
   margin-right: 5px;
@@ -11828,17 +11869,51 @@ h2.title {
   border-top: 8px solid #000;
 }
 .card--imgnone:hover {
-  border-top: 8px solid #EFE1D4;
+  border-top: 8px solid #efe1d4;
 }
 
 h4.card-text {
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 h5.card-text {
-  font-size: 22px;
   margin: 15px 0;
+}
+
+@media screen and (min-width: 1074px) {
+  .card {
+    border-radius: 0;
+    background-color: #efe1d4;
+    max-height: 404px;
+    height: 404px;
+    max-width: 360px;
+    margin: 0 30px;
+    transition: ease-in-out 0.6s;
+    border: none;
+  }
+  .card-title {
+    line-height: 25px;
+    font-size: 28px;
+  }
+  .card-body {
+    padding: 1.25rem;
+  }
+  .card-tag {
+    font-size: 10px;
+  }
+  .card-update {
+    font-size: 10px;
+  }
+
+  h4.card-text {
+    font-size: 32px;
+    line-height: 25px;
+  }
+
+  h5.card-text {
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
