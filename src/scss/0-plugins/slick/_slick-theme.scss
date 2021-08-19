@@ -188,7 +188,7 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    content: url('../images/Ellipse_1.png');
     text-align: center;
 
     opacity: .25;
@@ -201,4 +201,14 @@
 {
     opacity: .75;
     color: black;
+}
+
+
+.hero__textcontent{
+    .slick-dots{
+        width: auto;
+        li{
+            margin: 0;
+        }
+    }
 }

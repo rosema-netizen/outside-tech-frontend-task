@@ -158,7 +158,7 @@
   left: 0;
   width: 20px;
   height: 20px;
-  content: 'ΓÇó';
+  content: url("../images/Ellipse_1.png");
   text-align: center;
   opacity: .25;
   color: black;
@@ -169,6 +169,13 @@
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black;
+}
+
+.hero__textcontent .slick-dots {
+  width: auto;
+}
+.hero__textcontent .slick-dots li {
+  margin: 0;
 }
 
 /* Slider */
@@ -275,10 +282,6 @@
 
 .slick-arrow.slick-hidden {
   display: none;
-}
-
-.slick-initialized .slick-slide {
-  display: inline-flex;
 }
 
 /*!
@@ -12110,6 +12113,9 @@ button:focus {
 }
 .hero__item--active {
   opacity: 1;
+}
+.hero__textcontent .slick-initialized .slick-slide {
+  display: block;
 }
 
 .content-section {

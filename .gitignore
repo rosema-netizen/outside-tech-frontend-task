@@ -47,3 +47,8 @@ Thumbs.db
 *.wmv
 
 /.sass-cache
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/outside-tech-frontend-task/v16/.suo
+.gitignore
+dist/css/styles.css.map
