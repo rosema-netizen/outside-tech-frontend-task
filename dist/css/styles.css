@@ -11654,6 +11654,15 @@ h2.title {
   display: block;
 }
 
+.row-sp--right {
+  margin-right: 20px;
+  margin-left: 1px;
+}
+
+.row-sp--left {
+  margin-left: 40px;
+}
+
 @media screen and (min-width: 1074px) {
   .sp-displaynone {
     display: block;
@@ -11684,6 +11693,15 @@ h2.title {
   .blockcard__title {
     margin: 48px 0;
     font-size: 47px;
+  }
+
+  .row-sp--right {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .row-sp--left {
+    margin-left: -15px;
   }
 }
 .langselector {
@@ -11717,6 +11735,7 @@ h2.title {
 
 .navbar {
   background-color: #efe1d4;
+  padding: 20px 0;
 }
 .navbar__list {
   margin: 0;
@@ -11733,11 +11752,22 @@ h2.title {
   font-family: "SunsetGothicBold";
   float: right;
   font-size: 14px;
+  line-height: 20px;
 }
 .navbar__logo {
   padding-right: 30px;
 }
 
+@media screen and (min-width: 1074px) {
+  #navbar {
+    background-color: #ffd7b4;
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 9;
+  }
+}
 .seperator {
   background-color: #efe1d4;
   height: 8px;
@@ -11804,13 +11834,26 @@ h2.title {
   background: #e1cecc;
 }
 
+@media screen and (min-width: 1074px) {
+  .hero {
+    padding: 120px 0;
+  }
+}
 .text-content {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 .text-content__desc {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
+@media screen and (min-width: 1074px) {
+  .text-content {
+    padding: 40px 0;
+  }
+  .text-content__desc {
+    padding: 30px 0;
+  }
+}
 .card {
   border-radius: 0;
   background-color: #efe1d4;

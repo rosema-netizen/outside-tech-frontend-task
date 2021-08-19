@@ -1,5 +1,6 @@
 .navbar {
-    background-color: $bg-1;
+  background-color: $bg-1;
+  padding: 20px 0;
   &__list {
     margin: 0;
     padding: 0;
@@ -14,10 +15,22 @@
       font-family: "SunsetGothicBold";
       float: right;
       font-size: 14px;
+      line-height: 20px;
     }
   }
 
   &__logo {
     padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1074px) {
+  #navbar {
+    background-color: $peach-vibe;
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 9;
   }
 }
