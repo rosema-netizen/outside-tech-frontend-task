@@ -58,7 +58,7 @@ $(document).ready(function () {
   // BG NONE SLIDE INITIALIZATION
 
 
-  $('.hero__textcontent').slick({
+  $('.hero-slider').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
