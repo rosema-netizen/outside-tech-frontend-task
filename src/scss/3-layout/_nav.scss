@@ -1,9 +1,9 @@
 .navbar {
-  background-color: $peach-vibe;
   padding: 20px 0;
   position: fixed;
   width: 100%;
   z-index: 99;
+  transition: $stdrd-transition;
   &__list {
     margin: 0;
     padding: 0;
@@ -29,6 +29,16 @@
     display: block;
     height: 83.5vh;
   }
+  &:hover {
+    background: $peach-vibe;
+  }
+}
+
+.sticky-nav {
+  top: 0;
+  background: $peach-vibe;
+  transition: 0.2s ease-in-out;
+  padding: 30px 0;
 }
 
 .spnav {
@@ -72,11 +82,11 @@
 
 @media screen and (min-width: 1074px) {
   #navbar {
-    background-color: $peach-vibe;
+    // background-color: $peach-vibe;
     position: fixed;
     width: 100%;
     display: block;
-    transition: top 0.3s;
+    // transition: top 0.3s;
     z-index: 9;
   }
 }

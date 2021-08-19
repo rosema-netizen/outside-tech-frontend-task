@@ -11732,11 +11732,11 @@ h2.title {
 }
 
 .navbar {
-  background-color: #ffd7b4;
   padding: 20px 0;
   position: fixed;
   width: 100%;
   z-index: 99;
+  transition: ease-in-out 0.2s;
 }
 .navbar__list {
   margin: 0;
@@ -11761,6 +11761,16 @@ h2.title {
 .navbar-nav {
   display: block;
   height: 83.5vh;
+}
+.navbar:hover {
+  background: #ffd7b4;
+}
+
+.sticky-nav {
+  top: 0;
+  background: #ffd7b4;
+  transition: 0.2s ease-in-out;
+  padding: 30px 0;
 }
 
 .spnav__list {
@@ -11798,11 +11808,9 @@ h2.title {
 
 @media screen and (min-width: 1074px) {
   #navbar {
-    background-color: #ffd7b4;
     position: fixed;
     width: 100%;
     display: block;
-    transition: top 0.3s;
     z-index: 9;
   }
 }
@@ -12065,7 +12073,7 @@ h2.title {
 .link__button:hover {
   background: #000;
   color: #efe1d4;
-  transition: ease-in-out, 0.2s;
+  transition: ease-in-out 0.2s;
 }
 .link__button:hover .link__arrow {
   background: url(../images/XL/button/arrow-hover.svg) no-repeat;
@@ -12144,7 +12152,7 @@ button:focus {
   height: 230px;
   max-width: 360px;
   margin: 0 10px;
-  transition: ease-in-out, 0.2s;
+  transition: ease-in-out 0.2s;
   border: none;
 }
 .card:hover {
@@ -12163,7 +12171,7 @@ button:focus {
 }
 .card-img--border {
   border: 7px solid #000;
-  transition: ease-in-out, 0.2s;
+  transition: ease-in-out 0.2s;
 }
 .card-img--border:hover {
   border-color: #efe1d4;
@@ -12223,7 +12231,7 @@ h5.card-text {
     height: 404px;
     max-width: 360px;
     margin: 0 30px;
-    transition: ease-in-out, 0.2s;
+    transition: ease-in-out 0.2s;
     border: none;
   }
   .card-title {
