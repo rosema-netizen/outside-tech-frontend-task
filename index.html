@@ -12,58 +12,111 @@
 <body>
     <header>
         <div class="sp-displaynone">
-        <div class="langselector">
-            <div class="container">
-                <div class="langselector__wrapper">
-                    <p class="langselector__label">
-                        Select language:
-                    </p>
-                    <a href="javascript:void(0)"
-                        class="langselector__btn langselector__btn--border langselector__btn--active">
-                        en
-                    </a>
-                    <span class="line">
-                    </span>
-                    <a href="javascript:void(0)" class="langselector__btn">
-                        fr
-                    </a>
+            <div class="langselector">
+                <div class="container">
+                    <div class="langselector__wrapper">
+                        <p class="langselector__label">
+                            Select language:
+                        </p>
+                        <a href="javascript:void(0)"
+                            class="langselector__btn langselector__btn--border langselector__btn--active">
+                            en
+                        </a>
+                        <span class="line">
+                        </span>
+                        <a href="javascript:void(0)" class="langselector__btn">
+                            fr
+                        </a>
+                    </div>
                 </div>
+                <!-- CONATAINER END -->
             </div>
-            <!-- CONATAINER END -->
-        </div>
-        <!-- LANG SELECTOR END -->
-        <nav class="navbar" id="navbar">
-            <div class="container">
-                <ul class="navbar__list w-100">
-                    <li class="navbar__item pl-0">
-                        <a href="javascript:void(0)" class="navbar__logo">
-                            <img src="./dist/images/dummy-logo.svg" alt="LOGO" class="img-fluid">
-                        </a>
-                        <!-- LOGO END -->
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#">
-                            Learn
-                        </a>
-                    </li>
-                    <li class="navbar__item">
-                        <a href="#">Connect
-                        </a>
-                    </li>
-                    <li class="navbar__item navbar__item--register pr-0">
-                        <a href="#">
-                            JOIN US
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- CONTAINER END -->
-        </nav>
-        <!-- NAVIGATION END -->
-    </div>
+            <!-- LANG SELECTOR END -->
+            <nav class="navbar navbar-expand-lg" id="navbar">
+                <div class="container">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar__list navbar-nav w-100">
+                            <li class="navbar__item  pl-0">
+                                <a href="javascript:void(0)" class="navbar__logo navbar-brand">
+                                    <img src="./dist/images/dummy-logo.svg" alt="LOGO" class="img-fluid">
+                                </a>
+                                <!-- LOGO END -->
+                            </li>
+                            <li class="navbar__item nav-item active dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Learn <span class="sr-only">(current)</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <div class="menuD">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <ul class="dropdown__list">
+                                                        <li class="dropdown__item dropdown__item--active"><a href="#"> Food</li>
+                                                        <li class="dropdown__item"> <a href="#">Cosmetics</a></li>
+                                                        <li class="dropdown__item"><a href="#">Kernels</a></li>
+                                                        <li class="dropdown__item"><a href="#">Butter</a></li>
+                                                        <li class="dropdown__item"><a href="#">Sustainability</a></li>
+                                                        <li class="dropdown__item"><a href="#">Industry</a></li>
+                                                    </ul>
 
-    <!-- NAV FOR PC END -->
-    
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="row px-4">
+                                                        <div class="col-md-6">
+                                                            <div class="card card--bgnone">
+                                                                <img class="card-img-top card-img--border"
+                                                                    src="./dist/images/XL/Resource/Image-1.png" alt="Card image cap">
+                                                                <div class="card-body card-body--bgnone">
+                                                                    <p class="card-text"><span class="card-tag">INDUSTRY</span><small
+                                                                            class="card-update">i day ago</small></p>
+                                                                    <h5 class="card-text">VP Bawumia launches Parkland Restoration Fund to protect
+                                                                        shea parklands
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="card card--bgnone">
+                                                                <img class="card-img-top card-img--border"
+                                                                    src="./dist/images/XL/Resource/Image-1.png" alt="Card image cap">
+                                                                <div class="card-body card-body--bgnone">
+                                                                    <p class="card-text"><span class="card-tag">INDUSTRY</span><small
+                                                                            class="card-update">i day ago</small></p>
+                                                                    <h5 class="card-text">VP Bawumia launches Parkland Restoration Fund to protect
+                                                                        shea parklands
+                                                                    </h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="navbar__item nav-item">
+                                <a href="#" class="nav-link">Connect
+                                </a>
+                            </li>
+                            <li class="navbar__item nav-item navbar__item--register pr-0">
+                                <a href="#" class="nav-link">
+                                    JOIN US
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- CONTAINER END -->
+            </nav>
+            <!-- NAVIGATION END -->
+        </div>
+
+        <!-- NAV FOR PC END -->
+
     </header>
 
     <section class="hero">
@@ -73,7 +126,7 @@
                     <div class="hero__textcontent">
                         <div class="hero__tabs">
                             <ul class="hero__list">
-                                <li class="hero__item pl-0 hero__item--active">  Natural</li>
+                                <li class="hero__item pl-0 hero__item--active"> Natural</li>
                                 <li class="hero__item">Sustainable</li>
                                 <li class="hero__item">Ethical</li>
                             </ul>
@@ -93,7 +146,8 @@
                         <!-- DESCRIPTION END -->
                         <div class="dots">
                             <ul class="dots__list">
-                                <li class="dots__item pl-0 dots__item--active"><img src="./dist/images/Ellipse_1.png" alt="dots"></li>
+                                <li class="dots__item pl-0 dots__item--active"><img src="./dist/images/Ellipse_1.png"
+                                        alt="dots"></li>
                                 <li class="dots__item"><img src="./dist/images/Ellipse_1.png" alt="dots"></li>
                                 <li class="dots__item"><img src="./dist/images/Ellipse_1.png" alt="dots"></li>
                             </ul>
@@ -119,7 +173,8 @@
                 <div class="row row-sp--right">
                     <div class="col-md-6">
                         <img src="./dist/images/sheapromotion_2.png" alt="connect-IMG" class="img-fluid sp-displaynone">
-                        <img src="./dist/images/sheapromotion_2-sp.png" alt="connect-IMG" class="img-fluid pc-displaynone">
+                        <img src="./dist/images/sheapromotion_2-sp.png" alt="connect-IMG"
+                            class="img-fluid pc-displaynone">
                     </div>
                     <div class="col-md-6">
                         <div class="text-content">
@@ -217,8 +272,9 @@
                 <div class="row row-sp--left">
                     <div class="col-md-6 pc-displaynone">
                         <img src="./dist/images/Image.png" alt="learn-IMG" class="img-fluid sp-displaynone">
-                        <img src="./dist/images/sheapromotion_2-sp1.png" alt="learn-IMG" class="img-fluid pc-displaynone">
-                    </div> 
+                        <img src="./dist/images/sheapromotion_2-sp1.png" alt="learn-IMG"
+                            class="img-fluid pc-displaynone">
+                    </div>
 
                     <div class="col-md-6">
                         <div class="text-content">
@@ -318,8 +374,8 @@
                         <div class="row bgnone-slider">
                             <div class="col-md-4">
                                 <div class="card card--bgnone">
-                                    <img class="card-img-top card-img--border" src="./dist/images/XL/Resource/Image-1.png"
-                                        alt="Card image cap">
+                                    <img class="card-img-top card-img--border"
+                                        src="./dist/images/XL/Resource/Image-1.png" alt="Card image cap">
                                     <div class="card-body card-body--bgnone">
                                         <p class="card-text"><span class="card-tag">INDUSTRY</span><small
                                                 class="card-update">i day ago</small></p>
@@ -345,8 +401,8 @@
                             <div class="col-md-4">
                                 <div class="card card--bgnone">
                                     <div class="card-img__wrapper">
-                                    <img class="card-img-top card-img--border" src="./dist/images/XL/Resource/Image.png"
-                                        alt="Card image cap">
+                                        <img class="card-img-top card-img--border"
+                                            src="./dist/images/XL/Resource/Image.png" alt="Card image cap">
                                         <div class="card-img__play">
                                             <img src="./dist/images/XL/Resource/Polygon_2.png" alt="">
                                         </div>
@@ -361,7 +417,7 @@
                                 </div>
                             </div>
                             <!-- COL 4 END -->
-                            
+
                         </div>
                     </div>
                 </div>

@@ -34,3 +34,73 @@
     z-index: 9;
   }
 }
+
+// REWRITTEN STYLES
+
+.navbar-nav {
+  display: block;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+@media all and (min-width: 992px) {
+  .navbar {
+    .nav-item {
+      .dropdown-menu {
+        display: none;
+      }
+
+      &:hover {
+        .dropdown-menu {
+          display: block;
+          width: 100%;
+          padding: 40px 0;
+          margin-top: -5px;
+        }
+      }
+    }
+  }
+
+  .dropdown {
+    position: initial;
+
+    &-menu {
+      border: none;
+      border-radius: 0;
+      background-color: $peach-vibe;
+    }
+
+    &__item {
+      font-family: "SunsetGothicBold";
+      font-size: 28px;
+      line-height: 200%;
+      text-transform: uppercase;
+      opacity: 0.5;
+
+      &:hover{
+        opacity: 1;
+      }
+      &--active {
+        opacity: 1;
+      }
+    }
+
+    &__list{
+      border-right: solid 1px;
+    }
+  }
+
+  // .navbar .nav-item:hover .dropdown-menu {
+  //   width: 100%;
+  // }
+
+  a#navbarDropdownMenuLink {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 3em;
+    margin: -2.6em;
+  }
+}
