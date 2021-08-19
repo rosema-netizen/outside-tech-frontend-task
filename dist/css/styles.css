@@ -179,6 +179,15 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero__textcontent .slick-dots {
+    width: auto;
+    bottom: 0;
+  }
+  .hero__textcontent .slick-dots li {
+    margin: 0;
+  }
+}
 /* Slider */
 .slick-slider {
   position: relative;

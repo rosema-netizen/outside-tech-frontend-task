@@ -192,3 +192,17 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+
+    .hero__textcontent {
+        .slick-dots {
+          width: auto;
+          bottom: 0;
+          li {
+            margin: 0;
+          }
+        }
+      }
+
+}
