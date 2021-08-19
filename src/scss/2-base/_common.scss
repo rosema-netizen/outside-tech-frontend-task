@@ -13,6 +13,10 @@ a {
     text-decoration: none;
   }
 }
+ul{
+    padding: 0;
+    list-style: none;
+}
 
 .title {
   font-family: "SunsetGothicBold";
@@ -21,18 +25,18 @@ a {
 
 h1.title {
   font-size: $hero-font-size;
-  line-height: 55px;
+  line-height: 32px;
 }
 
 h2.title {
   font-size: $block-title-font-size;
-  line-height: 48px;
+  line-height: 25px;
 }
 
 .blockcard {
   &__title {
     font-size: $sub-title-font-size;
-    margin: 48px 0;
+    margin: 24px 0;
     text-transform: capitalize;
   }
 
@@ -43,11 +47,70 @@ h2.title {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 .section-bgimg {
-  width: 80%;
+  width: 85%;
   &--right {
     margin-left: auto;
   }
+}
+
+
+.dots{
+    &__item{
+        display: inline-block;
+        opacity: 0.2;
+        padding: 0 2px;
+        &--active{
+            opacity: 1;
+        }
+    }
+}
+
+.line{
+    width: 1.2px;
+    height: 25px;
+    opacity: 0.2;
+    background: $off-black;
+}
+
+.sp-displaynone{
+    display: none;
+}
+
+.pc-displaynone{
+    display: block;
+}
+
+
+@media screen and (min-width:1074px){
+    .sp-displaynone{
+        display:block;
+    }
+
+    .pc-displaynone{
+        display: none;
+    }
+
+    
+
+    h1.title {
+        line-height: 55px;
+      }
+      
+      h2.title {
+        line-height: 48px;
+      }
+
+      .section-padding {
+        padding: 120px 0;
+      }
+
+      .blockcard {
+        &__title {
+          margin: 48px 0;
+        }
+      }
+
 }

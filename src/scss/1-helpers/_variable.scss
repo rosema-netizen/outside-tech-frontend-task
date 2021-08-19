@@ -1,35 +1,42 @@
-$peach-vibe:#FFD7B4;
-$peach: #EFE1D4;
-$dusty-green: #C3C3B3;
-$dusty-lilac: #E1CECC;
+$peach-vibe: #ffd7b4;
+$peach: #efe1d4;
+$dusty-green: #c3c3b3;
+$dusty-lilac: #e1cecc;
 $black: #000;
-$off-black:#474952;
+$off-black: #474952;
 
 // COLOR VARIABLES
 
-$hero-font-size:64px;
-$block-title-font-size: 52px;
-$card-title-font-size:28px;
-$sub-title-font-size:47px;
-$content-font-size:16px;
+$hero-font-size: 36px;
+$block-title-font-size: 25px;
+$card-title-font-size: 14px;
+$card-noimg-tile:24px;
+$sub-title-font-size: 24px;
+$content-font-size: 16px;
 
 // FONT SIZE VARIABLES
 
-
-$font-content-color:$black;
-$font-content-lightcolor:$off-black;
-$link-color: $black ;
-$link-color-hover:$peach;
-$button-bg:$peach;
+$font-content-color: $black;
+$font-content-lightcolor: $off-black;
+$link-color: $black;
+$link-color-hover: $peach;
+$button-bg: $peach;
 $button-bg-hover: $black;
 $lang-selector-bg: $peach-vibe;
-$bg-1:$peach;
-$bg-2:$dusty-green;
-$bg-3:$dusty-lilac;
+$bg-1: $peach;
+$bg-2: $dusty-green;
+$bg-3: $dusty-lilac;
 $card-bg: $peach;
 $card-bg-hover: $black;
 $card-text-hover: $peach;
 
-
-
 // DERIVED VARIABLES
+
+@media screen and (min-width: 1074px) {
+  $hero-font-size: 64px;
+  $block-title-font-size: 52px;
+  $card-title-font-size: 28px;
+  $sub-title-font-size: 47px;
+  $content-font-size: 16px;
+  $card-noimg-tile:32px;
+}

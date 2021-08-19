@@ -1,10 +1,9 @@
 .card {
   border-radius: 0;
   background-color: $card-bg;
-  max-height: 404px;
-  height: 404px;
+  height: 230px;
   max-width: 360px;
-  margin: 0 30px;
+  margin: 0 10px;
   transition: ease-in-out 0.6s;
   border: none;
   &:hover {
@@ -12,10 +11,15 @@
     color: $card-text-hover;
     cursor: pointer;
   }
+
+  &-body{
+    padding: 0.75rem;
+  }
+
   &-title {
     font-family: "SunsetGothicBold";
     font-size: $card-title-font-size;
-    line-height: 25px;
+    line-height: 16px;
     text-transform: uppercase;
   }
   &-img {
@@ -40,6 +44,7 @@
   &--bgnone {
     background-color: transparent;
     margin: 0;
+    height: auto;
     &:hover {
       background-color: transparent;
       color: $black;
@@ -68,11 +73,52 @@
 }
 
 h4.card-text {
-  font-size: 32px;
-  line-height: 44px;
+  font-size: $card-noimg-tile;
+  line-height: 28px;
 }
 
 h5.card-text {
-  font-size: 22px;
   margin: 15px 0;
+}
+
+
+@media screen and (min-width:1074px){
+
+  .card{
+    border-radius: 0;
+  background-color: $card-bg;
+  max-height: 404px;
+  height: 404px;
+  max-width: 360px;
+  margin: 0 30px;
+  transition: ease-in-out 0.6s;
+  border: none;
+
+  &-title {
+    line-height: 25px;
+    font-size: 28px;
+  }
+
+  &-body{
+    padding: 1.25rem;
+  }
+
+  &-tag {
+    font-size: 10px;
+  
+  }
+  &-update {
+    font-size: 10px;
+  }
+  }
+
+  h4.card-text {
+    font-size: 32px;
+    line-height: 25px;
+  }
+  
+  h5.card-text {
+    font-size: 22px;
+  }
+
 }

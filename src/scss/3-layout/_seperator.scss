@@ -1,6 +1,13 @@
 .seperator{
     background-color: $peach;
     height: 8px;
-    margin-top: 120px;
+    margin-top: 60px;
     
+}
+
+@media screen and (min-width:1074px){
+    .seperator{
+        margin-top: 120px;
+    }
+
 }
