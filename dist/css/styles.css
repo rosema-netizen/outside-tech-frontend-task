@@ -11671,7 +11671,7 @@ h2.title {
   margin-left: 40px;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   .sp-displaynone {
     display: block;
   }
@@ -11817,7 +11817,7 @@ h2.title {
   border-bottom: 1px solid #000;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   #navbar {
     position: fixed;
     width: 100%;
@@ -12070,7 +12070,7 @@ h2.title {
   margin-top: 60px;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   .seperator {
     margin-top: 120px;
   }
@@ -12138,7 +12138,7 @@ button:focus {
   background: #e1cecc;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   .hero {
     padding: 120px 0;
   }
@@ -12154,7 +12154,7 @@ button:focus {
   padding: 20px 0;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   .text-content {
     padding: 40px 0;
   }
@@ -12239,7 +12239,7 @@ h5.card-text {
   margin: 15px 0;
 }
 
-@media screen and (min-width: 1074px) {
+@media screen and (min-width: 1024px) {
   .card {
     border-radius: 0;
     background-color: #efe1d4;
