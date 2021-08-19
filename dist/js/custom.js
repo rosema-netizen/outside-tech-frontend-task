@@ -60,7 +60,7 @@ $(document).ready(function () {
       document.getElementById("navbar").style.top = "0";
       document.getElementById("navbar").style.background = "#ffd7b4";
       document.getElementById("navbar").style.transition = "ease-in-out 0.2s";
-      document.getElementById("navbar").style.padding = "40px 0";
+      document.getElementById("navbar").style.padding = "30px 0";
 
     } else {
       document.getElementById("navbar").style.top = "60px";
@@ -69,6 +69,15 @@ $(document).ready(function () {
 
     }
   }
+
+
+  
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+
+  
 });
 
 
@@ -104,3 +113,4 @@ document.addEventListener("DOMContentLoaded", function(){
   }
   // end if innerWidth
   }); 
+
